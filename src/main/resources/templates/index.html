@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th='http://www.thymeleaf.org'>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Salted Hash</title>
+</head>
+<body>
+<h1>Salted hashes</h1>
+<h2>Sign in</h2>
+<form action="login" method="post">
+    <label for="name">Login:</label>
+    <input type="text" id="name" name="name" required><br><br>
+    <label for="pw">Password:</label>
+    <input type="text" id="pw" name="pw" required><br><br>
+    <input type="submit" value="Submit" name="login">
+</form>
+<h2>Sign up</h2>
+<form action="register" method="post">
+    <label for="newname">New login:</label>
+    <input type="text" id="newname" name="newname" required><br><br>
+    <label for="newpw">New password:</label>
+    <input type="text" id="newpw" name="newpw" required><br><br>
+    <input type="submit" value="Submit" name="register">
+</form>
+</body>
+</html>
