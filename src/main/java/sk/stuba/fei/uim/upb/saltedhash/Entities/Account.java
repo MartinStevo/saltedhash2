@@ -8,7 +8,6 @@ import javax.persistence.Lob;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "accounttbl")
 public class Account {
 
     @Id

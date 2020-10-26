@@ -5,7 +5,6 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "usertbl")
 public class LoggedUsers {
 
     @Id
