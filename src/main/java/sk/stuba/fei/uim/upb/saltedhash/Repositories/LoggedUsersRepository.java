@@ -6,5 +6,5 @@ import org.springframework.stereotype.Repository;
 import sk.stuba.fei.uim.upb.saltedhash.Entities.LoggedUsers;
 
 @Repository
-public interface LoggedUsersRepository extends JpaRepository<LoggedUsers, String> {
+public interface LoggedUsersRepository extends CrudRepository<LoggedUsers, String> {
 }
